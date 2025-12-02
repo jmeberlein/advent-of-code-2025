@@ -5,7 +5,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.*;
 
-
 public class Code2A {
     public static void main(String args[]) {
         List<String> file;

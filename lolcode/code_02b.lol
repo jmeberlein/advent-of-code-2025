@@ -54,21 +54,13 @@ IF U SAY SO
 
 HOW IZ I checkin YR number
     I HAS A len ITZ I IZ STRING'Z LEN YR number MKAY
-    I HAS A max_sublen ITZ SUM OF 1 AN I IZ rootin YR MAEK number A NUMBR MKAY
+    I HAS A max_sublen ITZ QUOSHUNT OF MAEK number A NUMBR AN 2
     IM IN YR loop UPPIN YR sublen TIL BOTH SAEM sublen AN max_sublen
         I IZ checkin_sublen YR number AN YR sublen MKAY, O RLY?
             YA RLY, FOUND YR WIN
         OIC
     IM OUTTA YR loop
     FOUND YR FAIL
-IF U SAY SO
-
-HOW IZ I rootin YR number
-    IM IN YR loop UPPIN YR i
-        BOTH SAEM PRODUKT OF i AN i AN BIGGR OF PRODUKT OF i AN i AN number, O RLY?
-            YA RLY, FOUND YR i
-        OIC
-    IM OUTTA YR loop
 IF U SAY SO
 
 HOW IZ I checkin_range YR start AN YR end
